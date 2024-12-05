@@ -1,0 +1,14 @@
+<mujoco model="mesh_model">
+    <asset>
+        <mesh name="sax" file="sax.obj" scale = "0.025 0.025 0.025"/>
+    </asset>
+    <worldbody>
+        <body pos="-0.1 0 0.0025"> <!-- Move to center of the plane -->
+            <!-- Apply scaling and 90-degree rotation around the Z-axis -->
+            <geom type="mesh" mesh="sax" contype="0" conaffinity="0"    
+                  euler="90 0 -10"   
+                  rgba="0.831 0.686 0.216 1"/>
+        </body>
+    </worldbody>
+</mujoco>
+

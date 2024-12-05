@@ -1,0 +1,11 @@
+    <mujoco model="mesh_model">
+        <asset>
+            <mesh name="hammer" file="martello.obj" scale="0.03 0.03 0.03"/>
+        </asset>
+        <worldbody>
+            <body>
+                <geom type="mesh" mesh="hammer" contype="0" conaffinity="0" pos="-0.4 -0.9 0.01" euler="90 60 0" rgba="0.502 0.502 0.502 1"/>
+            </body>
+        </worldbody>
+    </mujoco>
+    

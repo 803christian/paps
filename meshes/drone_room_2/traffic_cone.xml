@@ -1,0 +1,12 @@
+
+    <mujoco model="mesh_model">
+        <asset>
+            <mesh name="traffic_cone" file="traffic_cone.obj" scale="0.1 0.1 0.1"/>
+        </asset>
+        <worldbody>
+            <body>
+                <geom type="mesh" mesh="traffic_cone" contype="0" conaffinity="0" rgba="1 0.647 0 1" pos="0.34 1.3 0.1" euler="-15 0 0"/>
+            </body>
+        </worldbody>
+    </mujoco>
+    

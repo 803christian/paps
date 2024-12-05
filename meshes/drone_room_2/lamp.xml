@@ -1,0 +1,14 @@
+<mujoco model="mesh_model">
+    <asset>
+        <mesh name="lamp" file="lamp.obj" scale = "0.005 0.005 0.005"/>
+    </asset>
+    <worldbody>
+        <body pos="0.7 0.8 0.1"> <!-- Move to center of the plane -->
+            <!-- Apply scaling and 90-degree rotation around the Z-axis -->
+            <geom type="mesh" mesh="lamp" contype="0" conaffinity="0"    
+                  euler="0 -30 2.5"   
+                  rgba="1 1 0.878 1"/>
+        </body>
+    </worldbody>
+</mujoco>
+

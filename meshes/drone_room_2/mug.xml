@@ -1,0 +1,12 @@
+
+    <mujoco model="mesh_model">
+        <asset>
+            <mesh name="mug" file="mug.obj" scale="0.04 0.04 0.04"/>
+        </asset>
+        <worldbody>
+            <body>
+                <geom type="mesh" mesh="mug" contype="0" conaffinity="0" rgba="0.3 0.1 0.1 1" pos = "-0.68 -1.6 0.05" euler="0 90 0"/>
+            </body>
+        </worldbody>
+    </mujoco>
+    

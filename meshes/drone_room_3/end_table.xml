@@ -1,0 +1,12 @@
+
+    <mujoco model="mesh_model">
+        <asset>
+            <mesh name="end_table" file="end_table.STL" scale="0.0005 0.0005 0.0005"/>
+        </asset>
+        <worldbody>
+            <body>
+                <geom type="mesh" mesh="end_table" contype="0" conaffinity="0" pos="-1.1 -1.1 0" euler="90 0 0" rgba="0.545 0.271 0.075 1"/>
+            </body>
+        </worldbody>
+    </mujoco>
+    

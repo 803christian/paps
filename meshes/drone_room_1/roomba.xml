@@ -1,0 +1,12 @@
+
+    <mujoco model="mesh_model">
+        <asset>
+            <mesh name="roomba" file="roomba.stl" scale="0.01 0.01 0.01"/>
+        </asset>
+        <worldbody>
+            <body>
+                <geom type="mesh" mesh="roomba" contype="0" conaffinity="0" rgba=".6 .6 .6 1" pos="0.5 -0.8 -0.03" euler="0 0 50"/>
+            </body>
+        </worldbody>
+    </mujoco>
+    

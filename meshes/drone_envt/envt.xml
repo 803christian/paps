@@ -1,0 +1,12 @@
+
+    <mujoco model="mesh_model">
+        <asset>
+            <mesh name="envt" file="envt.obj" />
+        </asset>
+        <worldbody>
+            <body>
+                <geom type="mesh" mesh="envt" contype="0" conaffinity="0" rgba=".6 .6 .6 1"/>
+            </body>
+        </worldbody>
+    </mujoco>
+    

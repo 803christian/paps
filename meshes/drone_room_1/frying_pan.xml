@@ -1,0 +1,12 @@
+
+    <mujoco model="mesh_model">
+        <asset>
+            <mesh name="frying_pan" file="frying_pan.obj" scale="0.001 0.001 0.001"/>
+        </asset>
+        <worldbody>
+            <body>
+                <geom type="mesh" mesh="frying_pan" contype="0" conaffinity="0" rgba=".6 .6 .6 1" euler="90 -45 0" pos="-0.3 -0.8 0.02"/>
+            </body>
+        </worldbody>
+    </mujoco>
+    

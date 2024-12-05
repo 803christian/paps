@@ -1,0 +1,12 @@
+
+    <mujoco model="mesh_model">
+        <asset>
+            <mesh name="alarm_clock" file="alarm_clock.obj" scale = ".04 .04 .04"/>
+        </asset>
+        <worldbody>
+            <body>
+                <geom type="mesh" mesh="alarm_clock" contype="0" conaffinity="0" rgba="0.6 0 0 1" euler = "20 -30 0" pos="1.24 0.54 0.05"/>
+            </body>
+        </worldbody>
+    </mujoco>
+    
