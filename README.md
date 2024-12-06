@@ -47,3 +47,9 @@ python audio_match/run2.py
 
 # result in 
 audio_match/pipeline_output
+
+# Plug x,y,z coordinates and confidence values into run/drone_try.py
+# Modify args in drone_try.py as needed
+
+# Run drone_try.py 
+python3 drone_try.py #Expected output: folders with xyz data and depth & RBG images
