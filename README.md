@@ -53,3 +53,5 @@ audio_match/pipeline_output
 
 # Run drone_try.py 
 python3 drone_try.py #Expected output: folders with xyz data and depth & RBG images
+
+# NOTE: This is the data from the search. Run the audio-visual files with these data to receive your final results.
